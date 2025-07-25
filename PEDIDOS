@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panadería Artesanal - Pedidos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pedidos Especiales</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="pedidos.html">Pedidos Especiales</a>
+    <a href="horarios.html">Horarios</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="producto">Producto solicitado:</label><br>
+      <input type="text" id="producto" name="producto" required><br><br>
+
+      <label for="fecha">Fecha deseada:</label><br>
+      <input type="date" id="fecha" name="fecha" required><br><br>
+
+      <label for="mensaje">Mensaje adicional:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4"></textarea><br><br>
+
+      <button type="submit">Enviar pedido</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Panadería Artesanal
+  </footer>
+</body>
+</html>
