@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panadería Artesanal - Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="pedidos.html">Pedidos Especiales</a>
+    <a href="horarios.html">Horarios</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <p>Email: contacto@panaderiaartesanal.com</p>
+    <p>Teléfono: +598 1234 5678</p>
+    <p>Dirección: Calle del Pan 123, Montevideo, Uruguay</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Panadería Artesanal
+  </footer>
+</body>
+</html>
